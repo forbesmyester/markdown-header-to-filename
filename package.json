@@ -1,0 +1,26 @@
+{
+  "name": "markdown-header-to-filename",
+  "version": "0.0.0",
+  "description": "Normalize a Markdown header (\"# My Title!\") into a filename \"My Title\".",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run-script build",
+    "build": "tsc --esModuleInterop -d index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forbesmyester/markdown-header-to-filename.git"
+  },
+  "author": "Matt Forrester <github.com@speechmarks.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forbesmyester/markdown-header-to-filename/issues"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "typings": "./index.d.ts",
+  "homepage": "https://github.com/forbesmyester/markdown-header-to-filename#readme"
+}
